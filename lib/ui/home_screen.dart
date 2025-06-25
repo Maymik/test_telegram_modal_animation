@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/draggable_modal.dart';
+import 'package:test_telegram_modal_animation/widgets/draggable_modal.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
