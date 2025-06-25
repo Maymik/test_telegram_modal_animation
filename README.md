@@ -42,7 +42,7 @@ Make sure you have the following installed:
 Clone the repository and launch the app:
 
 ```bash
-git clone https://github.com/your-username/test_telegram_modal_animation.git
+git clone https://github.com/Maymik/test_telegram_modal_animation.git
 cd test_telegram_modal_animation
 flutter pub get
 flutter run
