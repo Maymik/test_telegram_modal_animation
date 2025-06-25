@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import '../widgets/draggable_modal.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -15,9 +15,10 @@ class HomeScreen extends StatelessWidget {
               context: context,
               isScrollControlled: true,
               backgroundColor: Colors.transparent,
-              builder: (_) => const DraggableModal(
-                url:  'https://www.w3schools.com/html/html_forms.asp',
-              ),
+              builder:
+                  (_) => const DraggableModal(
+                    url: 'https://www.w3schools.com/html/html_forms.asp',
+                  ),
             );
           },
           child: const Text('Відкрити модальне вікно'),
